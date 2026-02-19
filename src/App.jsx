@@ -36,7 +36,7 @@ function App() {
             <div className="um-card">
               <div className="um-card-tag">Alumni</div>
               <a href="#" className="um-card-link">
-                Connect To UM Alumni – Digos Campus
+                Connect To UM Alumni – Tagum Campus
               </a>
               <p className="um-card-text">
                 We are conducting an Alumni Tracer Study to update our database and assess graduate employability. Please complete the online survey to share your experience and current career status.
@@ -61,9 +61,9 @@ function App() {
                 <span className="um-logo-icon">UM</span>
               </div>
               <div className="um-portal-label">
-                <strong>student</strong>portal
+                <strong>Student</strong>Portal
               </div>
-              <div className="um-campus-badge">Digos Campus</div>
+              <div className="um-campus-badge">Tagum Campus</div>
             </div>
 
             <form className="um-form" onSubmit={handleLogin}>
