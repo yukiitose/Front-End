@@ -1,0 +1,74 @@
+/* src/components/SubjectCard.css */
+
+.subject-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.subject-card:hover {
+  border-color: #4a90d9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(74, 144, 217, 0.15);
+}
+
+.subject-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subject-code {
+  background: #e8f0fe;
+  color: #1e3a5f;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* Term badges */
+.term-badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.term-badge.term-per-semester { background: #d4edda; color: #155724; }
+.term-badge.term-per-term     { background: #cce5ff; color: #004085; }
+.term-badge.term-both         { background: #fff3cd; color: #856404; }
+
+.subject-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.subject-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.meta-item {
+  font-size: 12px;
+  color: #666;
+}
+
+.prereq-indicator {
+  padding-top: 10px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 12px;
+}
+
+.has-prereq { color: #856404; }
+.no-prereq  { color: #155724; }

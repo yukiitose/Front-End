@@ -1,0 +1,72 @@
+/* src/components/ProgramCard.css */
+
+.program-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.program-card:hover {
+  border-color: #1e3a5f;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(30, 58, 95, 0.15);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.program-code {
+  background: #1e3a5f;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.program-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-label {
+  color: #888;
+}
+
+.detail-value {
+  font-weight: 600;
+  color: #333;
+}
+
+.card-cta {
+  font-size: 12px;
+  color: #4a90d9;
+  text-align: right;
+  font-weight: 500;
+}

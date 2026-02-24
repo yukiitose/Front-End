@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "code": "BSIT",
+    "name": "Bachelor of Science in Information Technology",
+    "type": "Bachelor's Degree",
+    "duration": "4 years",
+    "totalUnits": 148,
+    "status": "Active",
+    "description": "A program that focuses on the use of computers and software to manage and process information. Students will learn programming, networking, database management, and system analysis.",
+    "dateAdded": "2020-06-01",
+    "yearLevels": [
+      {
+        "year": 1,
+        "label": "First Year",
+        "subjects": ["IT101", "IT102", "IT103", "GE101", "GE102"]
+      },
+      {
+        "year": 2,
+        "label": "Second Year",
+        "subjects": ["IT201", "IT202", "IT203", "IT204", "GE201"]
+      },
+      {
+        "year": 3,
+        "label": "Third Year",
+        "subjects": ["IT301", "IT302", "IT303", "IT304", "IT305"]
+      },
+      {
+        "year": 4,
+        "label": "Fourth Year",
+        "subjects": ["IT401", "IT402", "IT403", "IT404"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "BSCS",
+    "name": "Bachelor of Science in Computer Science",
+    "type": "Bachelor's Degree",
+    "duration": "4 years",
+    "totalUnits": 152,
+    "status": "Active",
+    "description": "A program centered on the theoretical and mathematical foundations of computing. Students will study algorithms, data structures, artificial intelligence, and software engineering.",
+    "dateAdded": "2020-06-01",
+    "yearLevels": [
+      {
+        "year": 1,
+        "label": "First Year",
+        "subjects": ["CS101", "CS102", "CS103", "GE101", "GE102"]
+      },
+      {
+        "year": 2,
+        "label": "Second Year",
+        "subjects": ["CS201", "CS202", "CS203", "CS204", "GE201"]
+      },
+      {
+        "year": 3,
+        "label": "Third Year",
+        "subjects": ["CS301", "CS302", "CS303", "CS304"]
+      },
+      {
+        "year": 4,
+        "label": "Fourth Year",
+        "subjects": ["CS401", "CS402", "CS403"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "code": "BSBA",
+    "name": "Bachelor of Science in Business Administration",
+    "type": "Bachelor's Degree",
+    "duration": "4 years",
+    "totalUnits": 140,
+    "status": "Active",
+    "description": "A program that prepares students for careers in business and management. Students will learn accounting, marketing, human resources, and business strategy.",
+    "dateAdded": "2021-06-01",
+    "yearLevels": [
+      {
+        "year": 1,
+        "label": "First Year",
+        "subjects": ["BA101", "BA102", "GE101", "GE102", "GE103"]
+      },
+      {
+        "year": 2,
+        "label": "Second Year",
+        "subjects": ["BA201", "BA202", "BA203", "BA204"]
+      },
+      {
+        "year": 3,
+        "label": "Third Year",
+        "subjects": ["BA301", "BA302", "BA303", "BA304"]
+      },
+      {
+        "year": 4,
+        "label": "Fourth Year",
+        "subjects": ["BA401", "BA402", "BA403"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "code": "BSED",
+    "name": "Bachelor of Secondary Education",
+    "type": "Bachelor's Degree",
+    "duration": "4 years",
+    "totalUnits": 145,
+    "status": "Under Review",
+    "description": "A program that prepares students for teaching at the secondary level. Students will study pedagogy, curriculum development, and subject specialization.",
+    "dateAdded": "2021-08-15",
+    "yearLevels": [
+      {
+        "year": 1,
+        "label": "First Year",
+        "subjects": ["ED101", "ED102", "GE101", "GE102"]
+      },
+      {
+        "year": 2,
+        "label": "Second Year",
+        "subjects": ["ED201", "ED202", "ED203"]
+      },
+      {
+        "year": 3,
+        "label": "Third Year",
+        "subjects": ["ED301", "ED302", "ED303"]
+      },
+      {
+        "year": 4,
+        "label": "Fourth Year",
+        "subjects": ["ED401", "ED402"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "code": "BSHRM",
+    "name": "Bachelor of Science in Hotel and Restaurant Management",
+    "type": "Bachelor's Degree",
+    "duration": "4 years",
+    "totalUnits": 138,
+    "status": "Phased Out",
+    "description": "A program that trains students in hospitality, hotel operations, food and beverage management, and tourism services.",
+    "dateAdded": "2019-06-01",
+    "yearLevels": [
+      {
+        "year": 1,
+        "label": "First Year",
+        "subjects": ["HR101", "HR102", "GE101", "GE102"]
+      },
+      {
+        "year": 2,
+        "label": "Second Year",
+        "subjects": ["HR201", "HR202", "HR203"]
+      },
+      {
+        "year": 3,
+        "label": "Third Year",
+        "subjects": ["HR301", "HR302"]
+      },
+      {
+        "year": 4,
+        "label": "Fourth Year",
+        "subjects": ["HR401", "HR402"]
+      }
+    ]
+  }
+]

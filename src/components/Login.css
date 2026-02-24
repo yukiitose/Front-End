@@ -1,0 +1,293 @@
+/* src/components/Login.css */
+
+/* ── Full screen two-column layout ── */
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #efefef;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ══════════════════════════════
+   LEFT SIDE — Welcome message
+══════════════════════════════ */
+.login-left {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 60px 60px 80px;
+}
+
+.welcome-content {
+  max-width: 520px;
+}
+
+/* "Welcome to HibayaAP" heading */
+.welcome-heading {
+  font-size: 38px;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+/* The colored school name in the heading */
+.school-highlight {
+  color: #b5451b;
+  font-style: italic;
+}
+
+.welcome-tagline {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 36px;
+}
+
+/* Each info block on the left */
+.welcome-block {
+  margin-bottom: 28px;
+}
+
+.welcome-block-label {
+  color: #b5451b;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* The orange link-style text */
+.link-text {
+  color: #b5451b;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.welcome-block-text {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+/* ══════════════════════════════
+   RIGHT SIDE — Login Card
+══════════════════════════════ */
+.login-right {
+  flex: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 60px 40px 20px;
+}
+
+/* The white login card */
+.login-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Logo area ── */
+.login-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+/* Round logo icon with letter */
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #b5451b 0%, #e8a020 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(181, 69, 27, 0.3);
+}
+
+.logo-letter {
+  color: white;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+/* "hibayaportal" text */
+.portal-name {
+  font-size: 26px;
+  color: #b5451b;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.portal-bold {
+  font-weight: 700;
+}
+
+/* "Tagum Campus" heading */
+.campus-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #b5451b;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* ── Form ── */
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+/* All text inputs */
+.login-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  background: #fafafa;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.login-input:focus {
+  border-color: #b5451b;
+  box-shadow: 0 0 0 3px rgba(181, 69, 27, 0.1);
+  background: white;
+}
+
+.login-input::placeholder {
+  color: #aaa;
+}
+
+/* Password field with eye button */
+.input-password .login-input {
+  padding-right: 48px;
+}
+
+.toggle-pass {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+  padding: 0;
+}
+
+/* Error message box */
+.error-message {
+  background: #fdecea;
+  border: 1px solid #f5c6cb;
+  color: #8b1a1a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #8b1a1a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  margin-top: 4px;
+}
+
+.login-btn:hover {
+  background-color: #a01f1f;
+  transform: translateY(-1px);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+}
+
+/* Grayed out when loading */
+.login-btn.loading {
+  background-color: #c77;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ── Bottom text links ── */
+.access-note {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  padding: 0 8px;
+}
+
+.link-text-dark {
+  background-color: #8b1a1a;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.forgot-pass {
+  font-size: 13px;
+  color: #b5451b;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.forgot-pass:hover {
+  color: #8b1a1a;
+}
+
+/* ── Responsive: stack on small screens ── */
+@media (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
+  }
+
+  .login-left {
+    padding: 40px 30px 20px;
+  }
+
+  .login-right {
+    padding: 20px 30px 40px;
+  }
+
+  .welcome-heading {
+    font-size: 28px;
+  }
+}
